@@ -42,7 +42,7 @@ Level 4 | puzzeled_out_90_1024 -> 1024 parts, 90 percent opacity
 ```
 
 ### Author
-`Koray ÇELİK`
+[Koray ÇELİK](https://github.com/kryC1)<br />
 
 ### Hint-1: 
 `puzzle`
