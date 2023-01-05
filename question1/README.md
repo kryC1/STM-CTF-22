@@ -30,9 +30,9 @@ Find the hidden message, the flag, using the given file question.ulg
 question.ulg -> [click to download](https://drive.google.com/file/d/1RYcOY2ynTJRR6gmmj0-4avWZo8vwtC_L/view?usp=share_link)<br />
 solution.ulg -> [click to download](https://drive.google.com/file/d/1x1K1wl_tORFDShsiC_1XFE9Inisni9Ab/view?usp=share_link)
 
-### Author
-`Koray ÇELİK`
-`Ali Ahmet Taşkesen`
+### Authors
+[Koray ÇELİK](https://github.com/kryC1)<br />
+[Ali Ahmet Taşkesen](https://github.com/aliahmetggg)
 
 ### Hint-1: 
 `flight`
