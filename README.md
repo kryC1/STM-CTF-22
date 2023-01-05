@@ -8,5 +8,5 @@ Two questions that are asked in the STM CTF22.
 ```
 
 ### Authors
-`Koray ÇELİK`
-`Ali Ahmet Taşkesen`
+`[Koray ÇELİK](https://github.com/kryC1)`
+`[Ali Ahmet Taşkesen](https://github.com/aliahmetggg)`
