@@ -4,5 +4,5 @@ TR:
 STM CTF22'nin finallerinde sorulmuş iki soru.
 
 EN:
-Two questions that asked in the STM CTF22.
+Two questions that are asked in the STM CTF22.
 ```
