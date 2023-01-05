@@ -52,13 +52,6 @@ Level 4 | puzzeled_out_90_1024 -> 1024 parts, 90 percent opacity
 
 ---
 
-## Deployment
-
-	# docker build -t gitrepo:v1.0 .
-	# docker run -dit --name myrepo -v $PWD/repos:/var/www/git -p 35006:80 gitrepo:v1.0
-
----
-
 ## Solution:
 In this question, the contestants are given a picture that has been turned into a puzzle and are
 expected to find the secret message. It is two-stage. In the first stage, the puzzle should be solved,
