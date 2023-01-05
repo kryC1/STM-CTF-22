@@ -42,6 +42,7 @@ solution.ulg -> [click to download](https://drive.google.com/file/d/1x1K1wl_tORF
 ---
 
 ## Solution:
+```
 EN:
 If the pixhawk flight controller is used in autonomous flights, the flight data is saved
 in a .ulg file with a format called "ulog" which is special to the PX4 autopilot.
@@ -61,6 +62,7 @@ The PX4 is open-source. Ulog format can be viewed on the official site.
 *Check the pattern made by the UAV from above.*
 *The pattern is the flag.*
 *The flag -> https://ibb.co/8r4DS9z*
+```
 
 ### Flag:
 `STMCTF{MANDALİNA}`
