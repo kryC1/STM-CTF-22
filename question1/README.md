@@ -23,7 +23,7 @@ TR:
 Size verile question.ulg dosyasından yola çıkarak gizli mesajı(flag) bulunuz.
 
 EN:
-Find the hidden message, the flag, using the given file solution.ulg
+Find the hidden message, the flag, using the given file question.ulg
 ```
 
 ### Challenge files:
