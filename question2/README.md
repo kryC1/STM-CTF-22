@@ -22,6 +22,8 @@
 TR:
 Size verilen fotoğraftan yola çıkarak gizli mesajı(flag) bulunuz.
 
+Sorunun zorluk seviyesini aşağıdaki fotoğraflardan birini seçerek belirleyebilirsiniz. Her fotoğraf aynı mesaja çıkmaktadır.
+
 Seviye 1 | puzzeled_out_85_256  -> 256 parça, yüzde 85 opaklık
 Seviye 2 | puzzeled_out_85_1024 -> 1024 parça, yüzde 85 opaklık
 Seviye 3 | puzzeled_out_90_256  -> 256 parça, yüzde 90 opaklık
@@ -68,7 +70,7 @@ from the internet. It is necessary to deal with the ready-made algorithm a littl
 
 *Firstly, the puzzle must be solved. There are two ways for it. First one is cutting all the pieces and put them together
 by a human hands and intelligence. Other way is using and algorithm(suggested -> https://github.com/kryC1/Jigsaw-puzzle-solver).
-The appropriate approach is comparing pieces by their edges in HSV channels. After solving the puzzle we shoulde have something
+The appropriate approach is comparing pieces by their edges in HSV channels. After solving the puzzle we should have something
 like this https://ibb.co/fSG9dSX hence the first stage is solved. Now we need to find the message. The message is hidden under
 the ...8888888.... characters but it cannot be detected by human eyes. So, we need to apply appropriate masks to find it. The
 suggested method is using a slider that we can apply every color range(HSV filter slider can be found in this dir.).
