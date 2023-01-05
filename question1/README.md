@@ -20,17 +20,10 @@
 ### Challenge message:
 ```
 TR:
-Otonom uçuşlarda pixhawk uçuş kontrolcüsü kullanılır ise uçuş verileri, PX4 otopilotuna
-özel bir format olan "ulog" formatında, .ulg uzantılı bir dosyaya kaydedilir. Ulog formatı
-bozulur ise .ulg destekli herhangi bir parser, log dosyasını okuyamaz. Bu soruda da log
-dosyası manipüle edilmiş olup (log verinde oynama yoktur, sadece formatı bozacak değişiklikler yapılmıştır),
-yarışmacıların dosyayı düzelttikten sonra gizli mesajı bulmaları mümkündür.
+Size verile question.ulg dosyasından yola çıkarak gizli mesajı(flag) bulunuz.
 
-Yarışmacıların, eğer bilmiyorlar ise, verilen dosyanın içeriğine bakarak bunun bir log
-dosyası olduğunu anladıktan sonra hangi formatta yazıldığını bulmaları gerekir. Ulog fortmatında
-yazıldığını anladıktan sonra neyin yanlış olduğunu tespit edip düzeltmeleri beklenir.
-
-PX4 açık kaynatır. Ulog formatı resmi sitesinden incelenebilir.
+EN:
+Find the hidden message, the flag, using the given file solution.ulg
 ```
 
 ### Challenge files:
@@ -46,17 +39,6 @@ solution.ulg -> [click to download](https://drive.google.com/file/d/1x1K1wl_tORF
 
 ### Hint-2: 
 `history`
-
-### Flag:
-`STMCTF{MANDALİNA}`
-
----
-
-## Deployment
-
-	# docker build -t gitrepo:v1.0 .
-	# docker run -dit --name myrepo -v $PWD/repos:/var/www/git -p 35006:80 gitrepo:v1.0
-
 ---
 
 ## Solution:
@@ -79,3 +61,6 @@ The PX4 is open-source. Ulog format can be viewed on the official site.
 *Check the pattern made by the UAV from above.*
 *The pattern is the flag.*
 *The flag -> https://ibb.co/8r4DS9z*
+
+### Flag:
+`STMCTF{MANDALİNA}`
